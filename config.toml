@@ -14,3 +14,11 @@ paginate = 10
 theme = "hyde"
 RSSUri = "atom.xml"
 paginatePath = "post"
+config = "config.toml"
+contentdir = "content"
+defaultLayout = "post"
+disableLiveReload = false
+# Do not build RSS files
+disableRSS = false
+# Do not build Sitemap file
+disableSitemap = false
