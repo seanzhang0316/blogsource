@@ -1,0 +1,14 @@
+languageCode = "en-us"
+publishDir = "public"
+buildDrafts = true
+baseURL = "https://seanzhang0316.github.io/"
+title = "乌鸦坐飞机"
+author = "Sean Zhang"
+pygmentsUseClasses = true
+disqusShortname = "https-seanzhang0316-github-io"
+
+# Shown in the side menu
+copyright = "&copy; 2017. All rights reserved."
+canonifyurls = true
+paginate = 10
+theme = "hyde"
