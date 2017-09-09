@@ -1,7 +1,7 @@
 languageCode = "en-us"
 publishDir = "public"
 buildDrafts = true
-baseURL = "https://seanzhang0316.github.io/"
+baseurl = "https://seanzhang0316.github.io/"
 title = "乌鸦坐飞机"
 author = "Sean Zhang"
 pygmentsUseClasses = true
@@ -12,3 +12,5 @@ copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "hyde"
+RSSUri = "atom.xml"
+paginatePath = "post"
