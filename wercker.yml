@@ -1,16 +1,9 @@
-box: golang:latest
-
+box: wercker/default
 build:
   steps:
-    - script:
-        name: initialize and update git submodules
-        code: |
-            git submodule init
-            git submodule update --remote --recursive
     - arjen/hugo-build:
         version: "HEAD"
         theme: hugo-theme-cactus-plus
-
 deploy:
   steps:
     - install-packages:
