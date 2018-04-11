@@ -11,5 +11,5 @@ deploy:
         - leipert/git-push:
             gh_oauth: $GIT_TOKEN
             repo: seanzhang0316/seanzhang0316.github.io
-			branch: master
+            branch: master
             basedir: public
