@@ -1,9 +1,8 @@
-box: debian
+box: golang
 build:
     steps:
         - arjen/hugo-build:
             theme: hugo-theme-cactus-plus
-            flags: --buildDrafts=true
 deploy:
     steps:
         - install-packages:
