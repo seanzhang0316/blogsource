@@ -1,8 +1,8 @@
 box: debian
 build:
-	steps:
-		- arjen/hugo-build:
-			theme: hugo-theme-cactus-plus
+    steps:
+        - arjen/hugo-build:
+            theme: hugo-theme-cactus-plus
             flags: --buildDrafts=true
 deploy:
 	steps:
