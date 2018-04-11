@@ -1,15 +1,10 @@
-box: debian
-build:
-    steps:
-        - arjen/hugo-build:
-            theme: hugo-theme-cactus-plus
-            flags: --buildDrafts=true
 deploy:
-    steps:
-        - install-packages:
-            packages: git
-        - leipert/git-push:
-            gh_oauth: $GIT_TOKEN
-            repo: seanzhang0316/seanzhang0316.github.io
-            branch: master
-            basedir: public
+  box: samueldebruyn/debian-git
+  steps:
+    - ysqi/git-push:
+        gh_oauth: $GIT_TOKEN
+        basedir: public
+        clean_removed_files: true
+        branch: $GIT_BRANCH
+        repo: $GIT_REPO
+        gh_pages_domain: $GIT_DOMAIN
