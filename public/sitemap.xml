@@ -3,33 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://seanzhang0316.github.io/about/</loc>
+    <loc>https://seanzhang0316.github.io/about/</loc>
     <lastmod>2017-09-09T11:28:14+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://seanzhang0316.github.io/post/2016-06-04-idea-default-directories/</loc>
+    <loc>https://seanzhang0316.github.io/post/git-collaboration-suggestion/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://seanzhang0316.github.io/post/idea-default-directories/</loc>
     <lastmod>2016-06-04T20:45:38+08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://seanzhang0316.github.io/categories/</loc>
+    <loc>https://seanzhang0316.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://seanzhang0316.github.io/post/</loc>
-    <lastmod>2016-06-04T20:45:38+08:00</lastmod>
+    <loc>https://seanzhang0316.github.io/categories/development/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://seanzhang0316.github.io/tags/</loc>
+    <loc>https://seanzhang0316.github.io/tags/git/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://seanzhang0316.github.io/</loc>
+    <loc>https://seanzhang0316.github.io/categories/git/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanzhang0316.github.io/tags/github/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanzhang0316.github.io/post/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanzhang0316.github.io/tags/</loc>
+    <lastmod>2017-06-10T17:23:08+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://seanzhang0316.github.io/</loc>
     <lastmod>2017-09-09T11:28:14+08:00</lastmod>
     <priority>0</priority>
   </url>

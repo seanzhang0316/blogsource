@@ -1,7 +1,7 @@
 ---
 title: "IDEA安装路径"
 date: 2016-06-04T20:45:38+08:00
-draft: true
+draft: false
 ---
 
 之前初次接触intellij idea，免不了各种折腾，清空配置、插件什么的。写份安装路径，方便自己也方便大家。
