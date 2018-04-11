@@ -1,5 +1,5 @@
 languageCode = "zh-cn"
-publishDir = "public"
+# publishdir = "public"
 baseurl = "https://seanzhang0316.github.io"
 title = "乌鸦坐飞机"
 
@@ -12,10 +12,10 @@ copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
 paginate = 10
 theme = "hugo-theme-cactus-plus"
-paginatePath = "post"
-config = "config.toml"
-contentdir = "content"
-defaultLayout = "post"
+# paginatePath = "post"
+# config = "config.toml"
+# contentdir = "content"
+# defaultLayout = "post"
 disableLiveReload = false
 [params]
   githubName = "seanzhang0316"
