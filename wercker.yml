@@ -2,14 +2,14 @@ box: debian
 build:
     steps:
         - arjen/hugo-build:
+			version: "0.17"
             theme: hugo-theme-cactus-plus
             flags: --buildDrafts=true
 deploy:
     steps:
         - install-packages:
-            packages: git
-        - leipert/git-push:
-            gh_oauth: $GIT_TOKEN
-            repo: seanzhang0316/seanzhang0316.github.io
-            branch: master
+            packages: git ssh-client
+        - lukevivier/gh-pages@0.2.1:
+            token: $GIT_TOKEN
+            domain: seanzhang0316.github.io
             basedir: public
