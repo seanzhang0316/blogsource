@@ -1,15 +1,15 @@
-box: wercker/default
+box: debian
 build:
-  steps:
-    - arjen/hugo-build:
-        version: 0.17
-        theme: hugo-theme-cactus-plus
+    steps:
+        - arjen/hugo-build:
+            theme: hugo-theme-cactus-plus
+            flags: --buildDrafts=true
 deploy:
-  steps:
-    - install-packages:
-            packages: git ssh-client
-    - leipert/git-push:
-			gh_oauth: $GIT_TOKEN
-			basedir: public
-			branch: $GIT_BRANCH
-			repo: $GIT_REPO
+    steps:
+        - install-packages:
+            packages: git
+        - leipert/git-push:
+            gh_oauth: $GIT_TOKEN
+            repo: $GIT_REPO
+            branch: $GIT_BRANCH
+            basedir: public
