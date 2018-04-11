@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<meta name="description" content="Java">
+		<meta name="generator" content="Hugo 0.38.2" />
+		<title>Git 多人协作开发使用 &middot; 乌鸦坐飞机</title>
+		<link rel="shortcut icon" href="https://seanzhang0316.github.io/images/favicon.ico">
+		<link rel="stylesheet" href="https://seanzhang0316.github.io/css/style.css">
+		<link rel="stylesheet" href="https://seanzhang0316.github.io/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://seanzhang0316.github.io/css/monosocialiconsfont.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://seanzhang0316.github.io/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='https://seanzhang0316.github.io/posts'>Archive</a>
+	<a href='https://seanzhang0316.github.io/tags'>Tags</a>
+	<a href='https://seanzhang0316.github.io/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Git 多人协作开发使用
+                    </h1>
+                    <h2 class="headline">
+                    Jun 10, 2017 17:23
+                    · 33 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="https://seanzhang0316.github.io/tags/git">git</a>
+                          
+                              <a href="https://seanzhang0316.github.io/tags/github">github</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    <p>以V1.0.0为例:</p>
+
+<ol>
+<li>从master创建新分支V1.0.0
+
+<ol>
+<li>新功能（以去需求1.0.0为例）命名为V1.0.0_feature_1.0.0</li>
+<li>Fix bug 命名为V1.0.0_fix_bug(bug 号)</li>
+</ol></li>
+<li>开发完成后git commit（推荐idea自带插件，方便写commit message）</li>
+<li>切回到V1.0.0，更新到最新版本git pull （这一步操作绝对不会有冲突）</li>
+<li>切回到开发分支，git rebase V1.0.0，若有冲突解决完冲突后 git rebase  &ndash;continue</li>
+<li>切回到V1.0.0，git pull，如有新的更新，重复步骤4，若无rebase 你的分支</li>
+<li>git push origin V1.0.0</li>
+<li>暂存本地未commit修改 git stash，还原修改 git stash pop（不可连续pop，会出现本地代码冲突）</li>
+</ol>
+
+<p>此方法保证你的本地开发分支能保存开发成果（如无特殊原因，不提交本地分支，保持线上分支清爽），且提交commit没有merge，不会有合并分支，都是线性结构</p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'https-seanzhang0316-github-io'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> 
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="https://seanzhang0316.github.io/js/jquery-3.3.1.min.js"></script>
+<script src="https://seanzhang0316.github.io/js/main.js"></script>
+<script src="https://seanzhang0316.github.io/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>
