@@ -9,7 +9,7 @@ build:
             git submodule update --remote --recursive
     - arjen/hugo-build:
         version: "HEAD"
-        theme: academic
+        theme: hugo-theme-cactus-plus
 
 deploy:
   steps:
