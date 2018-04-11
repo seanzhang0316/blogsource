@@ -8,7 +8,7 @@ deploy:
     steps:
         - install-packages:
             packages: git ssh-client
-        - - leipert/git-push:
+        - leipert/git-push:
             token: $GIT_TOKEN
             domain: seanzhang0316.github.io
             basedir: public
