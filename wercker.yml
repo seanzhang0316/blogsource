@@ -2,7 +2,7 @@ box: wercker/default
 build:
   steps:
     - arjen/hugo-build:
-        version: "HEAD"
+        version: 0.17
         theme: hugo-theme-cactus-plus
 deploy:
   steps:
