@@ -1,10 +1,10 @@
+box: debian
 build:
 	steps:
 		- arjen/hugo-build:
 			theme: hugo-theme-cactus-plus
             flags: --buildDrafts=true
 deploy:
-	box: samueldebruyn/debian-git
 	steps:
 		- leipert/git-push:
 			gh_oauth: $GIT_TOKEN
