@@ -6,7 +6,6 @@ title = "乌鸦坐飞机"
 [author]
 name = "Sean Zhang"
 email = "zhang.xiang1991@gmail.com"
-authorlocation = "Hangzhou, China"
 
 # Shown in the side menu
 copyright = "&copy; 2018. All rights reserved."
@@ -26,8 +25,4 @@ disableLiveReload = false
   disqusShortname = "https-seanzhang0316-github-io"
   github_user = "seanzhang0316"
   excerpt_link = "[阅读全文]" ## 博客首页显示博客概要时代替Read
-[[params.social]]
-    icon = "rss"
-    icon_pack = "fa"
-    link = "https://seanzhang0316.github.io/index.xml"
 
