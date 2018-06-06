@@ -57,7 +57,7 @@ String 对象的创建方式可分为显式和隐式两种，显式创建就是�
 
       将上述三行代码反编译后我们看到如下结果：
 
-      ![WX20180413-210211@2x](/Users/sean/Documents/GitHub/blogsource/static/image/WX20180413-210211@2x.png)
+      ![WX20180606-171147@2x](/Users/sean/Documents/GitHub/blogsource/static/images/WX20180606-171147@2x.png)
 
       如图所示，“test str”被共享，常量池中只有“abcdef”。
 

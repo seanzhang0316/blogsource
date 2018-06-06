@@ -23,4 +23,6 @@ disableLiveReload = false
   disqusShortname = "https-seanzhang0316-github-io"
   github_user = "seanzhang0316"
   excerpt_link = "[阅读全文]" ## 博客首页显示博客概要时代替Read
+  RSSUri = "atom.xml"
+  enableToc = true
 
