@@ -2,6 +2,7 @@ languageCode = "zh-cn"
 baseurl = "https://seanzhang0316.github.io"
 title = "乌鸦坐飞机"
 googleAnalytics = "UA-120501023-1"
+enableGoogleAnalytics = true
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = true
 
@@ -38,6 +39,8 @@ disableLiveReload = false
 
   enableRSS = true
   enableToc = true
+  
+  iconFont = "font-awesome"
   
   [social]
 	twitter = "https://twitter.com/seanzhang0316"
