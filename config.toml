@@ -1,6 +1,9 @@
 languageCode = "zh-cn"
 baseurl = "https://seanzhang0316.github.io"
 title = "乌鸦坐飞机"
+googleAnalytics = "UA-120501023-1"
+# Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
+hasCJKLanguage = true
 
 [author]
 name = "Sean Zhang"
@@ -17,12 +20,26 @@ publishdir = "public"
 disableLiveReload = false
 [params]
   githubName = "seanzhang0316"
-  description = "Java" ## 博客的描述
+  description = "个人博客小站" ## 博客的描述
+  
+  enableSummary = true
+  	# Set the value to true if use description in post front matter replace content summary
   useDescriptionReplaceSummary = true
+	
   enableDisqus = true
   disqusShortname = "https-seanzhang0316-github-io"
-  github_user = "seanzhang0316"
+  
   excerpt_link = "[阅读全文]" ## 博客首页显示博客概要时代替Read
-  RSSUri = "atom.xml"
+  
+  twitter = "seanzhang0316"
+  enableTwitterCard = true
+  
+  github = "seanzhang0316"
+
+  enableRSS = true
   enableToc = true
+  
+  [social]
+	twitter = "https://twitter.com/seanzhang0316"
+	github = "https://www.github.com/seanzhang0316"
 
