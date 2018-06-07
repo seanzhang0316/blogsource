@@ -42,7 +42,7 @@ disableLiveReload = false
   
   iconFont = "font-awesome"
   
-  [social]
+[social]
 	twitter = "https://twitter.com/seanzhang0316"
 	github = "https://www.github.com/seanzhang0316"
 
