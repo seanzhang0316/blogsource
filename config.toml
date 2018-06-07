@@ -20,8 +20,8 @@ layoutdir = "layouts"
 publishdir = "public"
 disableLiveReload = false
 [params]
-  githubName = "seanzhang0316"
-  description = "个人博客小站" ## 博客的描述
+
+  bio = "一不小心喜欢上手冲咖啡的Java攻城狮"  
   
   enableSummary = true
   	# Set the value to true if use description in post front matter replace content summary
@@ -45,4 +45,9 @@ disableLiveReload = false
 [social]
 	twitter = "https://twitter.com/seanzhang0316"
 	github = "https://www.github.com/seanzhang0316"
+	
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
