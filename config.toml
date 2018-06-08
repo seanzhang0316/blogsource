@@ -43,11 +43,13 @@ disableLiveReload = false
   iconFont = "font-awesome"
   
 [social]
-	twitter = "https://twitter.com/seanzhang0316"
-	github = "https://www.github.com/seanzhang0316"
+	Email = "zhang.xiang1991@gmail.com"
+	Twitter = "https://twitter.com/seanzhang0316"
+	Github = "https://www.github.com/seanzhang0316"
+	LinkedIn = "https://www.linkedin.com/in/%E7%BF%94-%E5%BC%A0-8860856b/"
 	
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
